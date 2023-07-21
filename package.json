@@ -1,0 +1,21 @@
+{
+  "name": "clean-craftsmanship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.0.0",
+    "@types/node": "^20.4.2",
+    "jest": "^28.0.0",
+    "ts-jest": "^28.0.0",
+    "typescript": "^5.1.6"
+  }
+}
