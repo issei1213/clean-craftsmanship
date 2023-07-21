@@ -1,5 +1,5 @@
-export  class Stack {
+export class Stack {
     isEmpty() {
-        return true
+        return true;
     }
 }
