@@ -46,4 +46,6 @@ export class Game {
     private twoBallsInFrame(frameIndex: number) {
         return this.rolls[frameIndex] + this.rolls[frameIndex + 1];
     }
+
+    play() {}
 }
