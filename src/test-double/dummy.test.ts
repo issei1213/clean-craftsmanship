@@ -4,7 +4,7 @@ interface Authenticator {
 
 class AuthenticatorDummy implements Authenticator {
     authenticate(username: string, password: string): boolean {
-        return null;
+        return false;
     }
 }
 
